@@ -3,7 +3,7 @@
 namespace BankSchot;
 
 
-// потомок класса object => можно переопределить 
+// потомок класса object => можно  
 // виртуальные методы, находящиеся в object
 public class BankAccount
 {
