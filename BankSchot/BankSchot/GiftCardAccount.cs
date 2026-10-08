@@ -18,5 +18,5 @@ public class GiftCardAccount : BankAccount
             MakeDeposit(_monthlyDeposit, DateTime.UtcNow, "Add monthly deposit");
         }
     }
-    public override string ToString() => base.ToString() + $"monthly deposit: {_monthlyDeposit}";
+    public override string ToString() => base.ToString() + $"monthly deposit: {_monthlyDeposit}"
 }
