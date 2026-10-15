@@ -7,3 +7,5 @@
 /.vs/Program_Technology.slnx/FileContentIndex/2229542b-2c6c-4f72-aa6c-835932091c80.vsidx
 /.vs/Program_Technology.slnx/FileContentIndex/89e329c3-6489-4470-8167-b3c86ce82f4d.vsidx
 /.vs/slnx.sqlite
+*.vsidx
+/.vs/slnx.sqlite-journal
