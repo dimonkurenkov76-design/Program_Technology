@@ -50,7 +50,7 @@ namespace Birds
         public override string ToString()
         {
             return $"[Penguin] {Species}, {Weight} kg, habitat: {Habitat}\n" +
-                $"weight in grams: {WeightInGrams}\n";
+                $"weight in grams: {WeightInGrams}";
         }
     }
 }

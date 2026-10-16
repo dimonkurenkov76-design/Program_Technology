@@ -47,7 +47,7 @@
         public override string ToString()
         {
             return $"[Eagle] {Species}, {Weight} kg, habitat: {Habitat}\n" +
-                $"weight in grams: {WeightInGrams}\n";
+                $"weight in grams: {WeightInGrams}";
         }
     }
 

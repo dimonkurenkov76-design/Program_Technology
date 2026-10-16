@@ -41,7 +41,7 @@ namespace Birds
         public Bird(string ringId, string species, double weight)
         {
             _ringId = ringId;
-            species = species.Trim();
+            Species = species.Trim();
             Weight = weight;
         }
         /// <summary>

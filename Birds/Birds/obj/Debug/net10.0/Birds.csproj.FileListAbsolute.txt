@@ -1,0 +1,15 @@
+C:\Users\dimon\source\repos\Program_Technology\Birds\Birds\bin\Debug\net10.0\Birds.exe
+C:\Users\dimon\source\repos\Program_Technology\Birds\Birds\bin\Debug\net10.0\Birds.deps.json
+C:\Users\dimon\source\repos\Program_Technology\Birds\Birds\bin\Debug\net10.0\Birds.runtimeconfig.json
+C:\Users\dimon\source\repos\Program_Technology\Birds\Birds\bin\Debug\net10.0\Birds.dll
+C:\Users\dimon\source\repos\Program_Technology\Birds\Birds\bin\Debug\net10.0\Birds.pdb
+C:\Users\dimon\source\repos\Program_Technology\Birds\Birds\obj\Debug\net10.0\Birds.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dimon\source\repos\Program_Technology\Birds\Birds\obj\Debug\net10.0\Birds.AssemblyInfoInputs.cache
+C:\Users\dimon\source\repos\Program_Technology\Birds\Birds\obj\Debug\net10.0\Birds.AssemblyInfo.cs
+C:\Users\dimon\source\repos\Program_Technology\Birds\Birds\obj\Debug\net10.0\Birds.csproj.CoreCompileInputs.cache
+C:\Users\dimon\source\repos\Program_Technology\Birds\Birds\obj\Debug\net10.0\Birds.sourcelink.json
+C:\Users\dimon\source\repos\Program_Technology\Birds\Birds\obj\Debug\net10.0\Birds.dll
+C:\Users\dimon\source\repos\Program_Technology\Birds\Birds\obj\Debug\net10.0\refint\Birds.dll
+C:\Users\dimon\source\repos\Program_Technology\Birds\Birds\obj\Debug\net10.0\Birds.pdb
+C:\Users\dimon\source\repos\Program_Technology\Birds\Birds\obj\Debug\net10.0\Birds.genruntimeconfig.cache
+C:\Users\dimon\source\repos\Program_Technology\Birds\Birds\obj\Debug\net10.0\ref\Birds.dll

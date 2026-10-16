@@ -7,6 +7,22 @@
       "RelativeMoniker": "D:0:0:{213649BA-89F4-D210-ED20-D53D99D78744}|Birds\\Birds.csproj|solutionrelative:birds\\bird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{213649BA-89F4-D210-ED20-D53D99D78744}|Birds\\Birds.csproj|c:\\users\\dimon\\source\\repos\\program_technology\\birds\\birds\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213649BA-89F4-D210-ED20-D53D99D78744}|Birds\\Birds.csproj|solutionrelative:birds\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213649BA-89F4-D210-ED20-D53D99D78744}|Birds\\Birds.csproj|c:\\users\\dimon\\source\\repos\\program_technology\\birds\\birds\\penguin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213649BA-89F4-D210-ED20-D53D99D78744}|Birds\\Birds.csproj|solutionrelative:birds\\penguin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213649BA-89F4-D210-ED20-D53D99D78744}|Birds\\Birds.csproj|c:\\users\\dimon\\source\\repos\\program_technology\\birds\\birds\\parrot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213649BA-89F4-D210-ED20-D53D99D78744}|Birds\\Birds.csproj|solutionrelative:birds\\parrot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213649BA-89F4-D210-ED20-D53D99D78744}|Birds\\Birds.csproj|c:\\users\\dimon\\source\\repos\\program_technology\\birds\\birds\\eagle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213649BA-89F4-D210-ED20-D53D99D78744}|Birds\\Birds.csproj|solutionrelative:birds\\eagle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{213649BA-89F4-D210-ED20-D53D99D78744}|Birds\\Birds.csproj|c:\\users\\dimon\\source\\repos\\program_technology\\birds\\birds\\iflyable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{213649BA-89F4-D210-ED20-D53D99D78744}|Birds\\Birds.csproj|solutionrelative:birds\\iflyable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,12 +33,12 @@
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "DockedHeight": 200,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,32 +58,58 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Habitat.cs",
-              "DocumentMoniker": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\Birds\\Birds\\Habitat.cs",
-              "RelativeDocumentMoniker": "Birds\\Habitat.cs",
-              "ToolTip": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\Birds\\Birds\\Habitat.cs",
-              "RelativeToolTip": "Birds\\Habitat.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-15T20:03:44.736Z",
-              "EditorCaption": ""
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IFlyable.cs",
-              "DocumentMoniker": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\Birds\\Birds\\IFlyable.cs",
-              "RelativeDocumentMoniker": "Birds\\IFlyable.cs",
-              "ToolTip": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\Birds\\Birds\\IFlyable.cs",
-              "RelativeToolTip": "Birds\\IFlyable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\Birds\\Birds\\Program.cs",
+              "RelativeDocumentMoniker": "Birds\\Program.cs",
+              "ToolTip": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\Birds\\Birds\\Program.cs",
+              "RelativeToolTip": "Birds\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwCAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-15T20:04:05.925Z",
+              "WhenOpened": "2026-10-16T20:30:57.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Parrot.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\Birds\\Birds\\Parrot.cs",
+              "RelativeDocumentMoniker": "Birds\\Parrot.cs",
+              "ToolTip": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\Birds\\Birds\\Parrot.cs",
+              "RelativeToolTip": "Birds\\Parrot.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T19:59:57.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Penguin.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\Birds\\Birds\\Penguin.cs",
+              "RelativeDocumentMoniker": "Birds\\Penguin.cs",
+              "ToolTip": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\Birds\\Birds\\Penguin.cs",
+              "RelativeToolTip": "Birds\\Penguin.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAcwDQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T19:04:39.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Eagle.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\Birds\\Birds\\Eagle.cs",
+              "RelativeDocumentMoniker": "Birds\\Eagle.cs",
+              "ToolTip": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\Birds\\Birds\\Eagle.cs",
+              "RelativeToolTip": "Birds\\Eagle.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwDEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T22:44:39.108Z",
               "EditorCaption": ""
             },
             {
@@ -78,9 +120,35 @@
               "RelativeDocumentMoniker": "Birds\\Bird.cs",
               "ToolTip": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\Birds\\Birds\\Bird.cs",
               "RelativeToolTip": "Birds\\Bird.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAA3wCgAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-15T20:04:15.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IFlyable.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\Birds\\Birds\\IFlyable.cs",
+              "RelativeDocumentMoniker": "Birds\\IFlyable.cs",
+              "ToolTip": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\Birds\\Birds\\IFlyable.cs",
+              "RelativeToolTip": "Birds\\IFlyable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T20:04:05.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Habitat.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\Birds\\Birds\\Habitat.cs",
+              "RelativeDocumentMoniker": "Birds\\Habitat.cs",
+              "ToolTip": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\Birds\\Birds\\Habitat.cs",
+              "RelativeToolTip": "Birds\\Habitat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T20:03:44.736Z",
               "EditorCaption": ""
             }
           ]
