@@ -5,3 +5,6 @@
 /BankSchot/.vs/BankSchot.slnx/FileContentIndex/c7168af4-4ec4-4257-86ba-3de590a25c35.vsidx
 /BankSchot/.vs/BankSchot.slnx/FileContentIndex/b3032a80-6754-462f-be0a-d299a61c89b7.vsidx
 /BankSchot/.vs/BankSchot.slnx/FileContentIndex
+*.vsidx
+/.gitignore
+/.gitignore
