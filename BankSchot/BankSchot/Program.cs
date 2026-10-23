@@ -1,4 +1,4 @@
-﻿namespace BankSchot
+﻿namespace Bank
 {
     public class Program
     {

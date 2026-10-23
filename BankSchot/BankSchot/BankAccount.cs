@@ -1,16 +1,30 @@
-﻿using System.Text;
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
-namespace BankSchot;
+namespace Bank;
 
-
-// потомок класса object => можно  
-// виртуальные методы, находящиеся в object
+/// <summary>
+/// Базовый класс, описывающий стандартный банковский счет.
+/// </summary>
 public class BankAccount
 {
     private readonly decimal _minimumBalance;
-    static private int s_accountNuberSeed = 1000000000;
+    private static int s_accountNuberSeed = 1000000000;
+
+    /// <summary>
+    /// Возвращает уникальный номер счета.
+    /// </summary>
     public string Number { get; }
+
+    /// <summary>
+    /// Возвращает имя владельца счета.
+    /// </summary>
     public string Owner { get; private set; }
+
+    /// <summary>
+    /// Динамически вычисляет текущий баланс счета на основе истории всех транзакций.
+    /// </summary>
     public decimal Balance
     {
         get
@@ -20,30 +34,45 @@ public class BankAccount
             {
                 balance += item.Amount;
             }
-
             return balance;
         }
     }
 
     private List<Transaction> _allTransactions = new List<Transaction>();
 
+    /// <summary>
+    /// Инициализирует новый счет с нулевым минимальным балансом (без овердрафта).
+    /// </summary>
+    /// <param name="name">Имя владельца счета.</param>
+    /// <param name="initialBalance">Начальный баланс счета.</param>
     public BankAccount(string name, decimal initialBalance) : this(name, initialBalance, 0)
     {
-
     }
 
+    /// <summary>
+    /// Инициализирует новый счет с указанием минимально допустимого баланса.
+    /// </summary>
+    /// <param name="name">Имя владельца счета.</param>
+    /// <param name="initialBalance">Начальный баланс счета.</param>
+    /// <param name="minimumBalance">Минимальный баланс (лимит овердрафта).</param>
     public BankAccount(string name, decimal initialBalance, decimal minimumBalance)
     {
-
-        Owner = name; // this.Owner = name
+        Owner = name;
         Number = s_accountNuberSeed.ToString();
         s_accountNuberSeed++;
-
         _minimumBalance = minimumBalance;
 
         if (initialBalance > 0)
             MakeDeposit(initialBalance, DateTime.UtcNow, "Inital balance");
     }
+
+    /// <summary>
+    /// Вносит депозит (положительную сумму) на счет.
+    /// </summary>
+    /// <param name="amount">Сумма депозита.</param>
+    /// <param name="date">Дата операции.</param>
+    /// <param name="note">Примечание к операции.</param>
+    /// <throws cref="ArgumentOutOfRangeException">Выбрасывается, если сумма меньше или равна нулю.</throws>
     public void MakeDeposit(decimal amount, DateTime date, string note)
     {
         if (amount <= 0)
@@ -55,24 +84,44 @@ public class BankAccount
         _allTransactions.Add(deposit);
     }
 
+    /// <summary>
+    /// Снимает деньги со счета с проверкой лимитов остатка.
+    /// </summary>
+    /// <param name="amount">Сумма снятия.</param>
+    /// <param name="date">Дата операции.</param>
+    /// <param name="note">Примечание к операции.</param>
     public void MakeWithdrawal(decimal amount, DateTime date, string note)
     {
         ArgumentOutOfRangeException.ThrowIfNegativeOrZero(amount);
 
-        Transaction? overdraftTransaction = CheckWithdrawalLimit(Balance - amount < _minimumBalance);
-        Transaction? withdrawal = new(-amount, date, note);
-
+        var withdrawal = new Transaction(-amount, date, note);
         _allTransactions.Add(withdrawal);
 
-        if (overdraftTransaction is not null)
-            _allTransactions.Add(overdraftTransaction);
+        try
+        {
+            Transaction? overdraftTransaction = CheckWithdrawalLimit(Balance < _minimumBalance);
+
+            if (overdraftTransaction is not null)
+                _allTransactions.Add(overdraftTransaction);
+        }
+        catch (InvalidOperationException)
+        {
+            _allTransactions.Remove(withdrawal);
+            throw;
+        }
     }
 
-    protected virtual Transaction? CheckWithdrawalLimit(bool isOvesdrawn)
+    /// <summary>
+    /// Проверяет, нарушен ли минимальный баланс счета при снятии.
+    /// </summary>
+    /// <param name="isOverdrawn">Флаг выхода за рамки допустимого лимита.</param>
+    /// <returns>Возвращает транзакцию штрафа/комиссии, если овердрафт разрешен наследником.</returns>
+    /// <throws cref="InvalidOperationException">Выбрасывается, если на счету недостаточно средств.</throws>
+    protected virtual Transaction? CheckWithdrawalLimit(bool isOverdrawn)
     {
-        if (isOvesdrawn)
+        if (isOverdrawn)
         {
-            throw new InvalidOperationException("Not sufficient rubls for this withdrawal");
+            throw new InvalidOperationException("Not sufficient rubles for this withdrawal");
         }
         else
         {
@@ -80,6 +129,10 @@ public class BankAccount
         }
     }
 
+    /// <summary>
+    /// Формирует текстовую выписку по истории всех операций по счету.
+    /// </summary>
+    /// <returns>Строка с форматированной историей транзакций.</returns>
     public string GetAccountHistory()
     {
         var report = new StringBuilder();
@@ -94,20 +147,18 @@ public class BankAccount
         }
         return report.ToString();
     }
-    // Ключевое слово virtual позволяет в дочернем классе
-    // предоставить другую реализацию 
-    // Метода PerformMonthAndTransactions
+
+    /// <summary>
+    /// Виртуальный метод обработки ежемесячных начислений (процентов, комиссий, бонусов).
+    /// </summary>
     public virtual void PerformMonthAndTransactions()
     {
-
     }
 
-    // переопределяем метод базового класса - класса object 
-    // toString возвращает строку с информацией об объекте
-    //public override string ToString()
-    //{
-    //    return $"Type:{GetType().Name}\tOwner:{Owner}\tNumber of account:{Number}\tBalance:{Balance}";
-    //}
+    /// <summary>
+    /// Возвращает текстовое представление счета с информацией о владельце, номере и балансе.
+    /// </summary>
+    /// <returns>Строка с описанием счета.</returns>
     public override string ToString()
     => $"Type:{GetType().Name}\tOwner:{Owner}\tNumber of account:{Number}\tBalance:{Balance}";
 }
