@@ -3,16 +3,21 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace Bank;
+
 /// <summary>
-/// Представляет счет кредитной линии (кредитную карту) с возможностью ухода в минус до определенного лимита.
+/// Кредитный счёт: позволяет уходить в минус до предела кредитного лимита.
 /// </summary>
 public class LineOfCreditAccount : BankAccount
 {
     /// <summary>
-    /// Инициализирует новый экземпляр класса LineOfCreditAccount с заданным кредитным лимитом.
+    /// Создаёт кредитный счёт.
     /// </summary>
-    public LineOfCreditAccount(string name, decimal initialBalance, decimal creditLimit)
-        : base(name, initialBalance, -creditLimit)
+    /// <param name="name">Имя владельца счёта.</param>
+    /// <param name="initialBalance">Начальный остаток.</param>
+    /// <param name="creditLimit">Максимальный размер кредита, на который можно уйти в минус.</param>
+    /// <param name="status">Статус клиента, влияющий на комиссии и кэшбэк.</param>
+    public LineOfCreditAccount(string name, decimal initialBalance, decimal creditLimit, ClientStatus status = ClientStatus.Regular)
+        : base(name, initialBalance, -creditLimit, status)
     {
 
     }

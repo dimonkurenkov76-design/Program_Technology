@@ -1,29 +1,35 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace Bank;
 
 /// <summary>
-/// Представляет подарочный счет с возможностью ежемесячного автопополнения.
+/// Подарочная карта: ежемесячно пополняется на фиксированную сумму.
 /// </summary>
 public class GiftCardAccount : BankAccount
 {
     private readonly decimal _monthlyDeposit = 0m;
 
     /// <summary>
-    /// Инициализирует новый экземпляр класса GiftCardAccount.
+    /// Создаёт подарочную карту.
     /// </summary>
-    /// <param name="name">Имя владельца.</param>
-    /// <param name="initialBalance">Начальная сумма подарка.</param>
-    /// <param name="monthlyDeposit">Размер ежемесячного пополнения (по умолчанию 0).</param>
-    public GiftCardAccount(string name, decimal initialBalance, decimal monthlyDeposit = 0)
-        : base(name, initialBalance)
+    /// <param name="name">Имя владельца карты.</param>
+    /// <param name="initialBalance">Начальный остаток.</param>
+    /// <param name="monthlyDeposit">Сумма ежемесячного пополнения.</param>
+    /// <param name="status">Статус клиента, влияющий на комиссии и кэшбэк.</param>
+    public GiftCardAccount(string name, decimal initialBalance, decimal monthlyDeposit = 0, ClientStatus status = ClientStatus.Regular)
+        : base(name, initialBalance, 0, status)
         => _monthlyDeposit = monthlyDeposit;
 
     /// <summary>
-    /// Автоматически начисляет фиксированный ежемесячный подарочный депозит.
+    /// Пополняет карту и учитывает комиссию базового счёта.
     /// </summary>
     public override void PerformMonthAndTransactions()
     {
+        // Без этой строки комиссия базового счёта не начисляется вообще.
+        base.PerformMonthAndTransactions();
+
         if (_monthlyDeposit != 0)
         {
             MakeDeposit(_monthlyDeposit, DateTime.UtcNow, "Add monthly deposit");
@@ -31,8 +37,8 @@ public class GiftCardAccount : BankAccount
     }
 
     /// <summary>
-    /// Расширяет базовое описание информацией о ежемесячном подарочном пополнении.
+    /// Возвращает описание счёта с указанием ежемесячного пополнения.
     /// </summary>
-    /// <returns>Строка с полным описанием подарочного счета.</returns>
-    public override string ToString() => base.ToString() + $"\tMonthly deposit: {_monthlyDeposit}";
+    /// <returns>Текстовое описание счёта.</returns>
+    public override string ToString() => base.ToString() + $"monthly deposit: {_monthlyDeposit}";
 }

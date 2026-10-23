@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\BankSchot\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8900DDC7-3F26-A42D-F05F-43ABE1BC3FDA}|BankSchot\\BankSchot.csproj|c:\\users\\dimon\\source\\repos\\program_technology\\bankschot\\bankschot\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8900DDC7-3F26-A42D-F05F-43ABE1BC3FDA}|BankSchot\\BankSchot.csproj|solutionrelative:bankschot\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8900DDC7-3F26-A42D-F05F-43ABE1BC3FDA}|BankSchot\\BankSchot.csproj|c:\\users\\dimon\\source\\repos\\program_technology\\bankschot\\bankschot\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8900DDC7-3F26-A42D-F05F-43ABE1BC3FDA}|BankSchot\\BankSchot.csproj|solutionrelative:bankschot\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8900DDC7-3F26-A42D-F05F-43ABE1BC3FDA}|BankSchot\\BankSchot.csproj|c:\\users\\dimon\\source\\repos\\program_technology\\bankschot\\bankschot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8900DDC7-3F26-A42D-F05F-43ABE1BC3FDA}|BankSchot\\BankSchot.csproj|solutionrelative:bankschot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8900DDC7-3F26-A42D-F05F-43ABE1BC3FDA}|BankSchot\\BankSchot.csproj|c:\\users\\dimon\\source\\repos\\program_technology\\bankschot\\bankschot\\lineofcreditaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8900DDC7-3F26-A42D-F05F-43ABE1BC3FDA}|BankSchot\\BankSchot.csproj|solutionrelative:bankschot\\lineofcreditaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,16 +27,12 @@
       "RelativeMoniker": "D:0:0:{8900DDC7-3F26-A42D-F05F-43ABE1BC3FDA}|BankSchot\\BankSchot.csproj|solutionrelative:bankschot\\giftcardaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8900DDC7-3F26-A42D-F05F-43ABE1BC3FDA}|BankSchot\\BankSchot.csproj|c:\\users\\dimon\\source\\repos\\program_technology\\bankschot\\bankschot\\clientstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8900DDC7-3F26-A42D-F05F-43ABE1BC3FDA}|BankSchot\\BankSchot.csproj|solutionrelative:bankschot\\clientstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8900DDC7-3F26-A42D-F05F-43ABE1BC3FDA}|BankSchot\\BankSchot.csproj|c:\\users\\dimon\\source\\repos\\program_technology\\bankschot\\bankschot\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8900DDC7-3F26-A42D-F05F-43ABE1BC3FDA}|BankSchot\\BankSchot.csproj|solutionrelative:bankschot\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8900DDC7-3F26-A42D-F05F-43ABE1BC3FDA}|BankSchot\\BankSchot.csproj|c:\\users\\dimon\\source\\repos\\program_technology\\bankschot\\bankschot\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8900DDC7-3F26-A42D-F05F-43ABE1BC3FDA}|BankSchot\\BankSchot.csproj|solutionrelative:bankschot\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8900DDC7-3F26-A42D-F05F-43ABE1BC3FDA}|BankSchot\\BankSchot.csproj|c:\\users\\dimon\\source\\repos\\program_technology\\bankschot\\bankschot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8900DDC7-3F26-A42D-F05F-43ABE1BC3FDA}|BankSchot\\BankSchot.csproj|solutionrelative:bankschot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -59,63 +67,50 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AuditLog.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\BankSchot\\BankSchot\\AuditLog.cs",
+              "RelativeDocumentMoniker": "BankSchot\\AuditLog.cs",
+              "ToolTip": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\BankSchot\\BankSchot\\AuditLog.cs*",
+              "RelativeToolTip": "BankSchot\\AuditLog.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T05:17:21.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "LineOfCreditAccount.cs",
               "DocumentMoniker": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\BankSchot\\BankSchot\\LineOfCreditAccount.cs",
               "RelativeDocumentMoniker": "BankSchot\\LineOfCreditAccount.cs",
               "ToolTip": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\BankSchot\\BankSchot\\LineOfCreditAccount.cs*",
               "RelativeToolTip": "BankSchot\\LineOfCreditAccount.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-23T03:52:30.848Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "InterestEarningAccoutn.cs",
-              "DocumentMoniker": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\BankSchot\\BankSchot\\InterestEarningAccoutn.cs",
-              "RelativeDocumentMoniker": "BankSchot\\InterestEarningAccoutn.cs",
-              "ToolTip": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\BankSchot\\BankSchot\\InterestEarningAccoutn.cs*",
-              "RelativeToolTip": "BankSchot\\InterestEarningAccoutn.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-05T11:24:16.19Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GiftCardAccount.cs",
-              "DocumentMoniker": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\BankSchot\\BankSchot\\GiftCardAccount.cs",
-              "RelativeDocumentMoniker": "BankSchot\\GiftCardAccount.cs",
-              "ToolTip": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\BankSchot\\BankSchot\\GiftCardAccount.cs*",
-              "RelativeToolTip": "BankSchot\\GiftCardAccount.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\BankSchot\\BankSchot\\Program.cs",
+              "RelativeDocumentMoniker": "BankSchot\\Program.cs",
+              "ToolTip": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\BankSchot\\BankSchot\\Program.cs*",
+              "RelativeToolTip": "BankSchot\\Program.cs*",
+              "ViewState": "AgIAADkAAAAAAAAAAAAUwGIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-23T03:51:31.77Z",
+              "WhenOpened": "2026-10-23T03:53:05.272Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BankAccount.cs",
-              "DocumentMoniker": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\BankSchot\\BankSchot\\BankAccount.cs",
-              "RelativeDocumentMoniker": "BankSchot\\BankAccount.cs",
-              "ToolTip": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\BankSchot\\BankSchot\\BankAccount.cs*",
-              "RelativeToolTip": "BankSchot\\BankAccount.cs*",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAUwKQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-23T03:50:54.881Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Transaction.cs",
               "DocumentMoniker": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\BankSchot\\BankSchot\\Transaction.cs",
               "RelativeDocumentMoniker": "BankSchot\\Transaction.cs",
-              "ToolTip": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\BankSchot\\BankSchot\\Transaction.cs*",
-              "RelativeToolTip": "BankSchot\\Transaction.cs*",
+              "ToolTip": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\BankSchot\\BankSchot\\Transaction.cs",
+              "RelativeToolTip": "BankSchot\\Transaction.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-23T03:53:17.389Z",
@@ -123,15 +118,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\BankSchot\\BankSchot\\Program.cs",
-              "RelativeDocumentMoniker": "BankSchot\\Program.cs",
-              "ToolTip": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\BankSchot\\BankSchot\\Program.cs",
-              "RelativeToolTip": "BankSchot\\Program.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAkwCYAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "InterestEarningAccoutn.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\BankSchot\\BankSchot\\InterestEarningAccoutn.cs",
+              "RelativeDocumentMoniker": "BankSchot\\InterestEarningAccoutn.cs",
+              "ToolTip": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\BankSchot\\BankSchot\\InterestEarningAccoutn.cs*",
+              "RelativeToolTip": "BankSchot\\InterestEarningAccoutn.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-23T03:53:05.272Z",
+              "WhenOpened": "2026-10-05T11:24:16.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GiftCardAccount.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\BankSchot\\BankSchot\\GiftCardAccount.cs",
+              "RelativeDocumentMoniker": "BankSchot\\GiftCardAccount.cs",
+              "ToolTip": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\BankSchot\\BankSchot\\GiftCardAccount.cs*",
+              "RelativeToolTip": "BankSchot\\GiftCardAccount.cs*",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwCsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T03:51:31.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClientStatus.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\BankSchot\\BankSchot\\ClientStatus.cs",
+              "RelativeDocumentMoniker": "BankSchot\\ClientStatus.cs",
+              "ToolTip": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\BankSchot\\BankSchot\\ClientStatus.cs*",
+              "RelativeToolTip": "BankSchot\\ClientStatus.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T05:15:37.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BankAccount.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\BankSchot\\BankSchot\\BankAccount.cs",
+              "RelativeDocumentMoniker": "BankSchot\\BankAccount.cs",
+              "ToolTip": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\BankSchot\\BankSchot\\BankAccount.cs*",
+              "RelativeToolTip": "BankSchot\\BankAccount.cs*",
+              "ViewState": "AgIAAOUAAAAAAAAAAAAUwA8BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T03:50:54.881Z",
               "EditorCaption": ""
             }
           ]
