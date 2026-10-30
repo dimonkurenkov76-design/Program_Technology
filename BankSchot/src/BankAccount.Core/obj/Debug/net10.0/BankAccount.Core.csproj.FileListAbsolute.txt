@@ -1,0 +1,5 @@
+C:\Users\dimon\source\repos\Program_Technology\BankSchot\src\BankAccount.Core\obj\Debug\net10.0\BankAccount.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dimon\source\repos\Program_Technology\BankSchot\src\BankAccount.Core\obj\Debug\net10.0\BankAccount.Core.AssemblyInfoInputs.cache
+C:\Users\dimon\source\repos\Program_Technology\BankSchot\src\BankAccount.Core\obj\Debug\net10.0\BankAccount.Core.AssemblyInfo.cs
+C:\Users\dimon\source\repos\Program_Technology\BankSchot\src\BankAccount.Core\obj\Debug\net10.0\BankAccount.Core.csproj.CoreCompileInputs.cache
+C:\Users\dimon\source\repos\Program_Technology\BankSchot\src\BankAccount.Core\obj\Debug\net10.0\BankAccount.Core.sourcelink.json

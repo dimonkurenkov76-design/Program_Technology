@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\BankSchot\\src\\BankAccount.Core\\BankAccount.Core.csproj",
-      "projectName": "BankAccount.Core",
-      "projectPath": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\BankSchot\\src\\BankAccount.Core\\BankAccount.Core.csproj",
+      "projectUniqueName": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\BankSchot\\src\\BankAccount.Core\\BankAccounts.Core.csproj",
+      "projectName": "BankAccounts.Core",
+      "projectPath": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\BankSchot\\src\\BankAccount.Core\\BankAccounts.Core.csproj",
       "packagesPath": "C:\\Users\\dimon\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\BankSchot\\src\\BankAccount.Core\\obj\\",
       "projectStyle": "PackageReference",
