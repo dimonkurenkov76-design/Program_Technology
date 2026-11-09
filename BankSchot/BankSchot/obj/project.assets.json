@@ -1,11 +1,30 @@
 {
   "version": 4,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "BankAccounts.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/BankAccounts.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BankAccounts.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "BankAccounts.Core/1.0.0": {
+      "type": "project",
+      "path": "../src/BankAccount.Core/BankAccounts.Core.csproj",
+      "msbuildProject": "../src/BankAccount.Core/BankAccounts.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "BankAccounts.Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\dimon\\.nuget\\packages\\": {}
@@ -13,9 +32,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\BankSchot\\BankSchot\\BankSchot.csproj",
-      "projectName": "BankSchot",
-      "projectPath": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\BankSchot\\BankSchot\\BankSchot.csproj",
+      "projectUniqueName": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\BankSchot\\BankSchot\\BankAccount.VisualConsole.csproj",
+      "projectName": "BankAccount.VisualConsole",
+      "projectPath": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\BankSchot\\BankSchot\\BankAccount.VisualConsole.csproj",
       "packagesPath": "C:\\Users\\dimon\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\BankSchot\\BankSchot\\obj\\",
       "projectStyle": "PackageReference",
@@ -34,7 +53,11 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\dimon\\source\\repos\\Program_Technology\\BankSchot\\src\\BankAccount.Core\\BankAccounts.Core.csproj": {
+              "projectPath": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\BankSchot\\src\\BankAccount.Core\\BankAccounts.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
