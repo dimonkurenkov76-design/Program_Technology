@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BankSchot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c6e21cf30d8e36fc7985fcbe61de83d6b8eafd1c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4488de39147dfece78e7047542904a598c6d0d3")]
 [assembly: System.Reflection.AssemblyProductAttribute("BankSchot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BankSchot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
