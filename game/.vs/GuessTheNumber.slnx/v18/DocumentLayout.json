@@ -1,26 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Prog_work\\C#\\game\\",
+  "WorkspaceRootPath": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{75754868-E1C6-0BE5-9555-44FFEFD66C18}|game\\GuessTheNumber.csproj|d:\\prog_work\\c#\\game\\game\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75754868-E1C6-0BE5-9555-44FFEFD66C18}|game\\GuessTheNumber.csproj|solutionrelative:game\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dimon\\source\\repos\\Program_Technology\\game\\game\\GameStatistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:game\\GameStatistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75754868-E1C6-0BE5-9555-44FFEFD66C18}|game\\GuessTheNumber.csproj|d:\\prog_work\\c#\\game\\game\\gameengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{75754868-E1C6-0BE5-9555-44FFEFD66C18}|game\\GuessTheNumber.csproj|c:\\users\\dimon\\source\\repos\\program_technology\\game\\game\\gameengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75754868-E1C6-0BE5-9555-44FFEFD66C18}|game\\GuessTheNumber.csproj|solutionrelative:game\\gameengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75754868-E1C6-0BE5-9555-44FFEFD66C18}|game\\GuessTheNumber.csproj|d:\\prog_work\\c#\\game\\game\\gamestation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75754868-E1C6-0BE5-9555-44FFEFD66C18}|game\\GuessTheNumber.csproj|solutionrelative:game\\gamestation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75754868-E1C6-0BE5-9555-44FFEFD66C18}|game\\GuessTheNumber.csproj|d:\\prog_work\\c#\\game\\game\\consoleuserinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75754868-E1C6-0BE5-9555-44FFEFD66C18}|game\\GuessTheNumber.csproj|solutionrelative:game\\consoleuserinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75754868-E1C6-0BE5-9555-44FFEFD66C18}|game\\GuessTheNumber.csproj|d:\\prog_work\\c#\\game\\game\\iuserinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{75754868-E1C6-0BE5-9555-44FFEFD66C18}|game\\GuessTheNumber.csproj|c:\\users\\dimon\\source\\repos\\program_technology\\game\\game\\iuserinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75754868-E1C6-0BE5-9555-44FFEFD66C18}|game\\GuessTheNumber.csproj|solutionrelative:game\\iuserinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75754868-E1C6-0BE5-9555-44FFEFD66C18}|game\\GuessTheNumber.csproj|c:\\users\\dimon\\source\\repos\\program_technology\\game\\game\\programms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75754868-E1C6-0BE5-9555-44FFEFD66C18}|game\\GuessTheNumber.csproj|solutionrelative:game\\programms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,59 +51,52 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "main.cs",
-              "DocumentMoniker": "D:\\Prog_work\\C#\\game\\game\\main.cs",
-              "RelativeDocumentMoniker": "game\\main.cs",
-              "ToolTip": "D:\\Prog_work\\C#\\game\\game\\main.cs",
-              "RelativeToolTip": "game\\main.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Title": "GameStatistics.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\game\\game\\GameStatistics.cs",
+              "RelativeDocumentMoniker": "game\\GameStatistics.cs",
+              "ToolTip": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\game\\game\\GameStatistics.cs*",
+              "RelativeToolTip": "game\\GameStatistics.cs*",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwCwAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-05T23:06:20.859Z",
+              "WhenOpened": "2026-11-10T14:49:48.12Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Programms.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\game\\game\\Programms.cs",
+              "RelativeDocumentMoniker": "game\\Programms.cs",
+              "ToolTip": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\game\\game\\Programms.cs",
+              "RelativeToolTip": "game\\Programms.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T16:56:21.961Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d455e273-1acb-491f-b5c9-760a99044cf9}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "GameEngine.cs",
-              "DocumentMoniker": "D:\\Prog_work\\C#\\game\\game\\GameEngine.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\game\\game\\GameEngine.cs",
               "RelativeDocumentMoniker": "game\\GameEngine.cs",
-              "ToolTip": "D:\\Prog_work\\C#\\game\\game\\GameEngine.cs",
+              "ToolTip": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\game\\game\\GameEngine.cs",
               "RelativeToolTip": "game\\GameEngine.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA+wB4AAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-05T22:46:47.612Z"
+              "WhenOpened": "2026-11-05T22:46:47.612Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GameStation.cs",
-              "DocumentMoniker": "D:\\Prog_work\\C#\\game\\game\\GameStation.cs",
-              "RelativeDocumentMoniker": "game\\GameStation.cs",
-              "ToolTip": "D:\\Prog_work\\C#\\game\\game\\GameStation.cs",
-              "RelativeToolTip": "game\\GameStation.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAqwB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-05T22:21:57.316Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ConsoleUserInterface.cs",
-              "DocumentMoniker": "D:\\Prog_work\\C#\\game\\game\\ConsoleUserInterface.cs",
-              "RelativeDocumentMoniker": "game\\ConsoleUserInterface.cs",
-              "ToolTip": "D:\\Prog_work\\C#\\game\\game\\ConsoleUserInterface.cs",
-              "RelativeToolTip": "game\\ConsoleUserInterface.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAcwCkAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-05T22:02:44.255Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "IUserInterface.cs",
-              "DocumentMoniker": "D:\\Prog_work\\C#\\game\\game\\IUserInterface.cs",
+              "DocumentMoniker": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\game\\game\\IUserInterface.cs",
               "RelativeDocumentMoniker": "game\\IUserInterface.cs",
-              "ToolTip": "D:\\Prog_work\\C#\\game\\game\\IUserInterface.cs",
+              "ToolTip": "C:\\Users\\dimon\\source\\repos\\Program_Technology\\game\\game\\IUserInterface.cs",
               "RelativeToolTip": "game\\IUserInterface.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
