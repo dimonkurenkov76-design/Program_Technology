@@ -14,11 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GuessTheNumber")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c576043c92a8c4a4322dd0e0eda6d91e7ea798be")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+512549ab9f77c7dc2d17e382d57a9849564533ee")]
->>>>>>> Принятие изменения
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ef3a2986a467d38bb9d65be5c0890d9478e52a5")]
 [assembly: System.Reflection.AssemblyProductAttribute("GuessTheNumber")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GuessTheNumber")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
