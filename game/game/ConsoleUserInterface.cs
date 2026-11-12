@@ -32,7 +32,7 @@
             string num = Console.ReadLine();
 
             if (string.IsNullOrEmpty(num)) return false;
-            char answer = num[0];
+            char answer = num[0];   
             return answer == 'Y' || answer == 'y';
         }
 
