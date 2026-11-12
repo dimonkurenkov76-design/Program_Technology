@@ -14,7 +14,7 @@ namespace GuessTheNumber
         private int _totalAttempts = 0;
         private int _gamesCount = 0;
         private readonly string _playerName;
-
+        
         public void TrackGame(string playerName, int attempts)
         {
             if (string.IsNullOrWhiteSpace(playerName))
@@ -28,7 +28,7 @@ namespace GuessTheNumber
             _totalAttempts += attempts;
             _gamesCount++;
             string text = $"Time: {DateTime.UtcNow}\tPlayer: {playerName}\tAttempt" +
-                    $"; {attempts}\n";
+                    $"; {attempts}\tLevel: {GameSettings.FromDifficultyLevel}\n";
             File.AppendAllText("leaderboard.txt", text);
         }
     }

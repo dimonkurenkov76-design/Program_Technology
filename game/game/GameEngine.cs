@@ -10,22 +10,26 @@ namespace GuessTheNumber
     {
         private readonly IUserInterface _userInterface;
         private readonly Random _rnd = new Random();
+        private readonly GameSettings _settings;
         
-        public GameEngine(IUserInterface userInterface)
+        public GameEngine(IUserInterface userInterface, GameSettings settings)
         {
             _userInterface = userInterface;
+            _settings = settings;
         }
         public int PlayOneGame()
         {
-            int number = _rnd.Next(1,101);
+            int minNumber = _settings.MinNumb;
+            int maxNumber = _settings.MaxNumb + 1;
+            int number = _rnd.Next(minNumber, maxNumber);
             int counter = 0;
-
+            bool win = false;
             _userInterface.UserMessage("Try guess number!");
 
-            while (true)
+            while (counter < _settings.MaxAttempts)
             {
                 counter++;
-                int userNumber = _userInterface.UserNumber();
+                int userNumber = _userInterface.UserNumber(_settings.MinNumb, _settings.MaxNumb);
 
                 if (userNumber > number)
                     _userInterface.UserMessage("Your number is greater");
@@ -34,8 +38,13 @@ namespace GuessTheNumber
                 else
                 {
                     _userInterface.UserMessage("You win!!!!!!");
+                    win = true;
                     break;
                 }
+            }
+            if (win == false)
+            {
+                _userInterface.UserMessage("Колличество попыток закончилось :(\nВЫ ПРОИГРАЛИ!!!");
             }
 
             return counter;
