@@ -35,6 +35,16 @@
             char answer = num[0];   
             return answer == 'Y' || answer == 'y';
         }
+        public string GetPlayerName()
+        {
+            Console.WriteLine("Введите ваше имя: ");
+            while(true)
+            {
+                string? playerName = Console.ReadLine();
+                if (!string.IsNullOrEmpty(playerName)) return playerName;
+                else Console.WriteLine("Ввели не корректное имя. Имя не длжно быть пустым");
+            }
+        }
 
         public GameSettings ChooseSettings()
         {

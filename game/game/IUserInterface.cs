@@ -5,6 +5,7 @@
         void UserMessage(string message);
         int UserNumber(int min, int max);
         bool AgainGame();
+        string GetPlayerName();
         public GameSettings ChooseSettings();
     }
 }

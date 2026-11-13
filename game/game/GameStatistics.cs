@@ -31,6 +31,12 @@ namespace GuessTheNumber
                     $"; {attempts}\tLevel: {GameSettings.FromDifficultyLevel}\n";
             File.AppendAllText("leaderboard.txt", text);
         }
+        public string GetSummary()
+        {
+            if (_gamesCount == 0) return "No game played yet.";
+            double avg = (double)_totalAttempts / _gamesCount;
+            return $"min = {_minAttempts} max = {_maxAttempts} avg = {avg:F2}";
+        }
     }
 }
 
