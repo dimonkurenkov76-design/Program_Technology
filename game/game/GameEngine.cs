@@ -1,17 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace GuessTheNumber
+﻿namespace GuessTheNumber
 {
     internal class GameEngine
     {
         private readonly IUserInterface _userInterface;
         private readonly Random _rnd = new Random();
         private readonly GameSettings _settings;
-        
+        public event Action<string>? OnGameStart;
+        public event Action<int, string>? OnGuessEvaluated;
+        public event Action<int, string>? OnGameWon;
+        public event Action<int, string>? OnGameLost;
+
         public GameEngine(IUserInterface userInterface, GameSettings settings)
         {
             _userInterface = userInterface;
@@ -24,7 +22,7 @@ namespace GuessTheNumber
             int number = _rnd.Next(minNumber, maxNumber);
             int counter = 0;
             bool win = false;
-            _userInterface.UserMessage("Try guess number!");
+            OnGameStart?.Invoke("Try guess number!");
 
             while (counter < _settings.MaxAttempts)
             {
@@ -32,23 +30,23 @@ namespace GuessTheNumber
                 int userNumber = _userInterface.UserNumber(_settings.MinNumb, _settings.MaxNumb);
 
                 if (userNumber > number)
-                    _userInterface.UserMessage("Your number is greater");
+                    OnGuessEvaluated?.Invoke(userNumber,"Your number is greater");
                 else if (userNumber < number)
-                    _userInterface.UserMessage("Your number is less");
+                    OnGuessEvaluated?.Invoke(userNumber,"Your number is less");
                 else
                 {
-                    _userInterface.UserMessage("You win!!!!!!");
+                    OnGameWon?.Invoke(counter, "You win!");
                     win = true;
                     break;
                 }
             }
             if (win == false)
             {
-                _userInterface.UserMessage("Колличество попыток закончилось :(\nВЫ ПРОИГРАЛИ!!!");
+                OnGameLost?.Invoke(counter, $"Колличество попыток закончилось :(\nВЫ ПРОИГРАЛИ!!!\nЗагаданное число: {number}");
             }
+
 
             return counter;
         }
-       
     }
 }
