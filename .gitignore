@@ -9,3 +9,5 @@
 /.vs/slnx.sqlite
 *.vsidx
 /.vs/slnx.sqlite-journal
+/BankSchot/BankSchot/obj/Debug/net10.0/BankSchot.AssemblyInfo.cs
+/.gitignore

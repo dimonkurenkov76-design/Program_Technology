@@ -1,0 +1,14 @@
+D:\Prog_work\C#\game\game\bin\Debug\net9.0\game.exe
+D:\Prog_work\C#\game\game\bin\Debug\net9.0\game.deps.json
+D:\Prog_work\C#\game\game\bin\Debug\net9.0\game.runtimeconfig.json
+D:\Prog_work\C#\game\game\bin\Debug\net9.0\game.dll
+D:\Prog_work\C#\game\game\bin\Debug\net9.0\game.pdb
+D:\Prog_work\C#\game\game\obj\Debug\net9.0\game.GeneratedMSBuildEditorConfig.editorconfig
+D:\Prog_work\C#\game\game\obj\Debug\net9.0\game.AssemblyInfoInputs.cache
+D:\Prog_work\C#\game\game\obj\Debug\net9.0\game.AssemblyInfo.cs
+D:\Prog_work\C#\game\game\obj\Debug\net9.0\game.csproj.CoreCompileInputs.cache
+D:\Prog_work\C#\game\game\obj\Debug\net9.0\game.dll
+D:\Prog_work\C#\game\game\obj\Debug\net9.0\refint\game.dll
+D:\Prog_work\C#\game\game\obj\Debug\net9.0\game.pdb
+D:\Prog_work\C#\game\game\obj\Debug\net9.0\game.genruntimeconfig.cache
+D:\Prog_work\C#\game\game\obj\Debug\net9.0\ref\game.dll
