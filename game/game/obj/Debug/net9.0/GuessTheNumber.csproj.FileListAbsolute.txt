@@ -20,3 +20,12 @@ C:\Users\dimon\source\repos\Program_Technology\game\game\obj\Debug\net9.0\GuessT
 C:\Users\dimon\source\repos\Program_Technology\game\game\obj\Debug\net9.0\GuessTheNumber.dll
 C:\Users\dimon\source\repos\Program_Technology\game\game\obj\Debug\net9.0\refint\GuessTheNumber.dll
 C:\Users\dimon\source\repos\Program_Technology\game\game\obj\Debug\net9.0\GuessTheNumber.pdb
+C:\Users\dimon\source\repos\Program_Technology\game\game\bin\Debug\net9.0\GuessTheNumber.exe
+C:\Users\dimon\source\repos\Program_Technology\game\game\bin\Debug\net9.0\GuessTheNumber.deps.json
+C:\Users\dimon\source\repos\Program_Technology\game\game\bin\Debug\net9.0\GuessTheNumber.runtimeconfig.json
+C:\Users\dimon\source\repos\Program_Technology\game\game\bin\Debug\net9.0\GuessTheNumber.runtimeconfig.dev.json
+C:\Users\dimon\source\repos\Program_Technology\game\game\bin\Debug\net9.0\GuessTheNumber.dll
+C:\Users\dimon\source\repos\Program_Technology\game\game\bin\Debug\net9.0\GuessTheNumber.pdb
+C:\Users\dimon\source\repos\Program_Technology\game\game\obj\Debug\net9.0\GuessTheNumber.genruntimeconfig.cache
+C:\Users\dimon\source\repos\Program_Technology\game\game\obj\Debug\net9.0\ref\GuessTheNumber.dll
+C:\Users\dimon\source\repos\Program_Technology\game\game\obj\Debug\net9.0\GuessThe.333C5854.Up2Date

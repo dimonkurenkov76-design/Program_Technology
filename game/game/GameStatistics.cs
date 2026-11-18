@@ -7,15 +7,38 @@ using System.IO;
 
 namespace GuessTheNumber
 {
+    /// <summary>
+    /// Отвечает за подсчёт статистики текущей сессии и сохранение результатов игроков в текстовый файл.
+    /// </summary>
     internal class GameStatistics
     {
+        /// <summary>
+        /// минимальное значение попыток
+        /// </summary>
         private int _minAttempts = 0;
+        /// <summary>
+        /// Максимальное значение попыток
+        /// </summary>
         private int _maxAttempts = 0;
+        /// <summary>
+        /// общее значение попыток
+        /// </summary>
         private int _totalAttempts = 0;
+        /// <summary>
+        /// Игр сыграно
+        /// </summary>
         private int _gamesCount = 0;
+        /// <summary>
+        /// Имя игрока
+        /// </summary>
         private readonly string _playerName;
-        
-        public void TrackGame(string playerName, int attempts)
+        /// <summary>
+        /// Метод записывающий каждую игру в файл
+        /// </summary>
+        /// <param name="playerName">Имя игрока</param>
+        /// <param name="attempts">колличество попыток</param>
+        /// <param name="level">Уровень сложности</param>
+        public void TrackGame(string playerName, int attempts, DifficultyLevel level)
         {
             if (string.IsNullOrWhiteSpace(playerName))
             {
@@ -27,10 +50,14 @@ namespace GuessTheNumber
 
             _totalAttempts += attempts;
             _gamesCount++;
-            string text = $"Time: {DateTime.UtcNow}\tPlayer: {playerName}\tAttempt" +
-                    $"; {attempts}\tLevel: {GameSettings.FromDifficultyLevel}\n";
+            string text = $"Time: {DateTime.UtcNow}\nPlayer: {playerName}\nAttempt" +
+                    $"; {attempts}\nLevel: {level}\n\n";
             File.AppendAllText("leaderboard.txt", text);
         }
+        /// <summary>
+        /// Метод подсчета статистики
+        /// </summary>
+        /// <returns>Возращает строку со значениями</returns>
         public string GetSummary()
         {
             if (_gamesCount == 0) return "No game played yet.";

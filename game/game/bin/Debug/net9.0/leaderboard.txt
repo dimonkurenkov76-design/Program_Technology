@@ -1,0 +1,31 @@
+Time: 18.11.2026 18:28:09
+Player: Dima
+Attempt; 13
+Level: Easy
+Time: 18.11.2026 18:43:23
+Player: пип
+Attempt; 4
+Level: Easy
+Time: 18.11.2026 18:44:08
+Player: пип
+Attempt; 9
+Level: Easy
+Time: 18.11.2026 18:44:38
+Player: пип
+Attempt; 4
+Level: Easy
+Time: 18.11.2026 19:25:15
+Player: лена пена
+Attempt; 9
+Level: Hard
+
+Time: 18.11.2026 19:29:00
+Player: ktyf gtyf
+Attempt; 10
+Level: Custom
+
+Time: 18.11.2026 20:02:47
+Player: lol
+Attempt; 4
+Level: Easy
+

@@ -2,8 +2,15 @@
 
 namespace GuessTheNumber
 {
+    /// <summary>
+    /// точка входа в приложение
+    /// </summary>
     internal class Programms
     {
+        /// <summary>
+        /// Главный метод запуска приложения.
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             IUserInterface ui = new ConsoleUserInterface();
@@ -27,10 +34,13 @@ namespace GuessTheNumber
             
             );
             
-            ui.UserMessage(statistics.GetSummary());
-            
-            
+            ui.UserMessage(statistics.GetSummary()); 
         }
+        /// <summary>
+        /// подписывает пользовательский интерфейс на события в игре
+        /// </summary>
+        /// <param name="engine">экземпляр игрового движка</param>
+        /// <param name="ui">пользовательсикй интерфейс</param>
         private static void SubscribeToEvents(GameEngine engine, IUserInterface ui)
         {
             engine.OnGameStart += msg => ui.UserMessage(msg);
